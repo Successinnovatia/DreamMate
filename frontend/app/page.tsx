@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import HowItWorks from "@/components/HowItWorks";
-import WhyDreammate from "@/components/WhyDreammate";
-import Celebrities from "@/components/Celebrities";
-import Testimonials from "@/components/Testimonials";
-import Footer from "@/components/Footer";
-import CookiesConsent from "@/components/CookiesConsent";
+import Header from "@/components/landing/home/Header";
+import Hero from "@/components/landing/home/Hero";
+import Features from "@/components/landing/home/Features";
+import HowItWorks from "@/components/landing/home/HowItWorks";
+import WhyDreammate from "@/components/landing/home/WhyDreammate";
+import Celebrities from "@/components/landing/home/Celebrities";
+import Testimonials from "@/components/landing/home/Testimonials";
+import Footer from "@/components/landing/home/Footer";
+import CookiesConsent from "@/components/landing/home/CookiesConsent";
 
 
 

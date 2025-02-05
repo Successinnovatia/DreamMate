@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "../../ui/button";
 import { ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <section className="bg-white rounded-t-md pt-4 px-2 mx-1">
+    <section className="bg-white rounded-t-md pt-4 px-2 mx-2">
       <div className="bg-secondary rounded-t-xl pt-8 pb-4 px-6 text-center">
         <p className="text-sm font-serif text-[#F7F9FC] mb-4">CONVINCED?</p>
 

@@ -2,8 +2,9 @@ import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function Connection() {
+
   return (
-    <section className="flex flex-col justify-center items-center mt-4 pt-10 pb-14 space-y-4 rounded-md bg-white mx-2 ">
+    <section className="flex flex-col justify-center items-center pt-10 pb-14 space-y-4 rounded-md bg-white mx-2 ">
       <div>
         <h1 className="font-serif text-xl md:text-2xl font-bold text-center">
           Make a Connection{" "}
@@ -15,8 +16,8 @@ export default function Connection() {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row w-3/4 space-y-4 md:space-y-0 md:space-x-6">
-        <div className="flex flex-col w-1/2 items-center bg-[#F3FDFF]">
+      <div className="flex flex-col items-center md:items-stretch justify-center md:flex-row w-full md:w-5/6 lg:w-3/4 space-y-4 md:space-y-0 md:space-x-6">
+        <div className="flex flex-col w-5/6 md:w-1/2 items-center py-6 px-4 bg-[#F3FDFF]">
           <DotLottieReact
             src="https://lottie.host/55404a74-bae3-4862-a13e-dd690bd842c8/nryresuFDH.lottie"
             className="w-36 h-36"
@@ -34,7 +35,7 @@ export default function Connection() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-1/2 bg-[#F6FDEF] items-center">
+        <div className="flex flex-col w-5/6 md:w-1/2 py-6 px-4  bg-[#F6FDEF] items-center">
           <DotLottieReact
             src="https://lottie.host/1507194e-9faa-49c0-9a86-c82ed6f23e59/gIG8dPDu7X.lottie"
             className="w-36 h-36"

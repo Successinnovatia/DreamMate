@@ -1,4 +1,4 @@
-import { MarqueeImages } from "./ui/marqueeImages";
+import { MarqueeImages } from "../../ui/marqueeImages";
 
 export default function Celebrities() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { BadgeCard } from './ui/badgeCard'
+import { BadgeCard } from '../../ui/badgeCard'
 
 export default function HowItWorks() {
   return (

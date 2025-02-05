@@ -1,6 +1,6 @@
 import React from 'react'
-import { FeaturesCard } from './ui/featuresCard'
-import { MetricsCard } from './ui/metricsCard'
+import { FeaturesCard } from '../../ui/featuresCard'
+import { MetricsCard } from '../../ui/metricsCard'
 
 export default function Features() {
   return (
