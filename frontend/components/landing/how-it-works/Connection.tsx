@@ -4,7 +4,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 export default function Connection() {
 
   return (
-    <section className="flex flex-col justify-center items-center pt-10 pb-14 space-y-4 rounded-md bg-white mx-2 ">
+    <section className="flex flex-col justify-center items-center pt-10 pb-14 space-y-4 rounded-md bg-white mx-2">
       <div>
         <h1 className="font-serif text-xl md:text-2xl font-bold text-center">
           Make a Connection{" "}
