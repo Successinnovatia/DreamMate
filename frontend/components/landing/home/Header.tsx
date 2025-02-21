@@ -40,7 +40,7 @@ export default function Header({scroll}:{scroll:boolean}) {
   }, []);
   return (
     <header
-      className={`bg-transparent fixed mt-5 w-full p-4 lg:p-0 z-50`}
+      className={`bg-transparent fixed mt-3 w-full p-4 lg:p-0 z-50`}
     >
       <div
         className={`flex bg-transparent mb-2 justify-between mx-auto items-center w-auto lg:w-5/6 rounded-lg px-4  transition-all duration-300 ${

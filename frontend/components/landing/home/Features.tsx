@@ -7,7 +7,7 @@ export default function Features() {
     <section className='bg-[#F7F5F5] pt-4 lg:pt-20'>
         <div className="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-16 w-full px-10 md:px-16 pt-20  pb-10 bg-white">
             <div className="flex flex-col space-y-2">
-                <h2 className='text-secondary font-serif text-2xl md:text-3xl lg:text-5xl'>Always stands out</h2>
+                <h1 className='text-secondary font-serif text-2xl md:text-3xl lg:text-5xl'>Always stands out</h1>
 
                 <p className="text-[#656565] text-wrap md:w-3/4">DreamMate connects ambitious individuals looking for relationships that match their lifestyle and goals. Live the life you want with someone who shares your vision.</p>
 
