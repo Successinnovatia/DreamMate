@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Pricing } from "./Pricing";
 import {plans, currencies, Currency} from '@/data/pricingData'
-import CurrencyDropdown from "./currencyDropdown";
+import CurrencyDropdown from "./CurrencyDropdown";
 
 
 
