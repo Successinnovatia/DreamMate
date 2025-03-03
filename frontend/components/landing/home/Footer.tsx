@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
 
         <Button asChild className="mt-6 mb-12">
-          <Link href="/create-account">
+          <Link href="#">
             Reister for Free{" "}
             <span>
               <ArrowUpRight />

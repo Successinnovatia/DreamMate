@@ -46,7 +46,7 @@ export function Pricing({freemiumPlan, premiumPlan, currency, isAnnual}:PricingP
             </span>
           </p>
           <Button asChild className="mt-2 w-48 bg-[#FEF6F1] text-secondary">
-            <Link href="/create-account">Get Started</Link>
+            <Link href="#">Get Started</Link>
           </Button>
           {/*conditionally rendered features */}
           <div className="mt-4 hidden">
@@ -92,7 +92,7 @@ export function Pricing({freemiumPlan, premiumPlan, currency, isAnnual}:PricingP
               </span>
             </p>
             <Button asChild className="mt-2 w-48">
-              <Link href="/create-account">Get Started</Link>
+              <Link href="#">Get Started</Link>
             </Button>
           </div>
 

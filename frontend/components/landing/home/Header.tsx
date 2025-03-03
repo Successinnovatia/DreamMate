@@ -116,7 +116,7 @@ export default function Header({scroll}:{scroll:boolean}) {
           </Button>
 
           <Button asChild>
-            <Link href="/create-account">
+            <Link href="#">
               Get Started{" "}
               <span>
                 <ArrowUpRight />
@@ -184,7 +184,7 @@ export default function Header({scroll}:{scroll:boolean}) {
             </Button>
 
             <Button asChild>
-              <Link href="/create-account">
+              <Link href="#">
                 Get Started{" "}
                 <span>
                   <ArrowUpRight />

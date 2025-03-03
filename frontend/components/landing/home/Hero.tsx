@@ -15,10 +15,10 @@ export default function Hero() {
           <h1 className='text-white text-center text-2xl md:text-5xl font-serif font-bold tracking-wider leading-relaxed '>Discover <span className='text-primary'>Visionary</span> Partnerships: Your Dream Life starts here</h1>
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mt-2 md:mt-4 items-center justify-center">
             <Button asChild>
-              <Link href='/create-account'>Create your Free Account<span><ArrowUpRight /></span></Link>
+              <Link href='#'>Create your Free Account<span><ArrowUpRight /></span></Link>
             </Button>
             <Button asChild className='bg-white text-primary hover:bg-[#E9EFF4CC]'>
-              <Link href='/create-account'>Explore Premium Membership</Link>
+              <Link href='#'>Explore Premium Membership</Link>
             </Button>
 
           </div>

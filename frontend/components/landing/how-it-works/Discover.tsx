@@ -4,7 +4,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 export default function Discover() {
   return (
     <section className="p-4 rounded-md bg-white mx-2">
-      <div className="bg-[#FEF6F1] rounded-md flex flex-col justify-center items-center pt-10 pb-14 space-y-4 ">
+      <div className="bg-[#FEF6F1] rounded-md flex flex-col justify-center items-center pt-10 pb-14 space-y-4 px-2">
         <h1 className="font-serif text-xl md:text-2xl font-bold text-center md:text-balance">
           Discover Matches Based on{" "}
           <span className="text-primary">Lifestyle Goals</span>

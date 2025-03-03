@@ -4,12 +4,12 @@ import Image from "next/image";
 
 function WhyDreammate() {
   return (
-    <section className='py-8 bg-[#FEF6F1]'>
+    <section className='py-4 md:py-8 bg-[#FEF6F1]'>
       <h2 className="text-secondary font-serif text-2xl md:text-3xl lg:text-5xl text-center">
         Why <span className="text-primary">DreamMate</span>
       </h2>
 
-      <div className="flex flex-col  mx-auto justify-center space-y-12 w-5/6 lg:w-3/4 mt-10">
+      <div className="flex flex-col  mx-auto justify-center space-y-12 w-5/6 lg:w-3/4 mt-5 md:mt-10">
         <div className="relative flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 ">
           <div className="w-full md:w-1/2 justify-start items-start">
             <BookATripCard

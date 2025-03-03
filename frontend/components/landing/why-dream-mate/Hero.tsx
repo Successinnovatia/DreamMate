@@ -16,7 +16,7 @@ function Hero() {
         </h1>
 
         <Button asChild className="mt-4 bg-secondary">
-          <Link href="/create-account">
+          <Link href="#">
             Free Signup
             <span>
               <ArrowUpRight />
