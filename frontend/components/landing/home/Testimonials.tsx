@@ -91,7 +91,7 @@ export default function Testimonials() {
                   (_, i) => (
                     <span key={i} className="items-start">
                       <Image
-                        src="/images/metrics/star.png"
+                        src="/images/metrics/Star.png"
                         alt="rating-image"
                         width={20}
                         height={20}
