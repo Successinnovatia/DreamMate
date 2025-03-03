@@ -39,7 +39,7 @@ export function MetricsCard() {
         {[...Array(5)].map((_, i) => (
           <Image
             key={i}
-            src="/images/metrics/star.png"
+            src="/images/metrics/Star.png"
             alt="rating-image"
             width={20}
             height={20}
