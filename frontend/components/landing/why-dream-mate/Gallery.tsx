@@ -51,7 +51,7 @@ const Gallery = () => {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} className="">
-             <div className={`absolute transition-all duration-500 ease-in-out ${activeIndex === index ? 'h-72 top-0 shadow-xl opacity-100 ':`h-3/4 opacity-80 ${image.position}`}  w-full  `}>
+             <div className={`absolute transition-all duration-500 ease-in-out ${activeIndex === index ? 'h-72 top-0  opacity-100 ':`h-3/4 opacity-80 ${image.position}`}  w-full  rounded-lg`}>
               <Image
                 src={image.src}
                 alt={`Image ${index}`}
