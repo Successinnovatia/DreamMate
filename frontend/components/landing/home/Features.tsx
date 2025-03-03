@@ -31,7 +31,7 @@ export default function Features() {
         </div>
         <div className="w-5/6 md:w-2/5 mx-auto pt-8 pb-14">
           <p className="text-sm text-[#656565]">
-            "Find a partner who not only loves you but also shares your dreams and aspirations."
+            {"\"Find a partner who not only loves you but also shares your dreams and aspirations.\""}
           </p>
         </div>
     </section>

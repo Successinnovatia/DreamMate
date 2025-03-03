@@ -5,13 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "../../ui/button";
 import { ArrowUpRight, Menu, X } from "lucide-react";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useCallback } from "react";
 
 export default function Header({scroll}:{scroll:boolean}) {
  
 
   const pathname = usePathname()
-  const isActive = (path: string) => pathname === path;
+  const isActive = useCallback((path: string) => pathname === path, [pathname])
   const [isScrolled, setIsScrolled] = useState<boolean>(scroll);
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
 
@@ -21,7 +22,7 @@ export default function Header({scroll}:{scroll:boolean}) {
   };
 
 
-  console.log()
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,7 +38,7 @@ export default function Header({scroll}:{scroll:boolean}) {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isActive]);
   return (
     <header
       className={`bg-transparent fixed mt-3 w-full p-4 lg:p-0 z-50`}

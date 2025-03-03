@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { testimonials } from "@/data/testimonials";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,22 +9,35 @@ export default function Testimonials() {
 
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    startAutoSlide();
-
-    return () => stopAutoSlide();
+  const stopAutoSlide = useCallback(() => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
   }, []);
 
-  const startAutoSlide = () => {
+  const nextSlide = useCallback(() => {
+    stopAutoSlide();
+    setSlideDirection("right");
+    setCurrentIndex((prevIndex) =>
+      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+    );
+    startAutoSlide();
+  }, [stopAutoSlide]);
+
+  const startAutoSlide = useCallback(() => {
     stopAutoSlide();
     intervalRef.current = setInterval(() => {
       nextSlide();
     }, 5000);
-  };
+  }, [stopAutoSlide, nextSlide]);
 
-  const stopAutoSlide = () => {
-    if (intervalRef.current) clearInterval(intervalRef.current);
-  };
+  useEffect(() => {
+    startAutoSlide();
+
+    return () => stopAutoSlide();
+  }, [startAutoSlide]);
+
+  
+
+  
 
   const previousSlide = () => {
     stopAutoSlide();
@@ -35,14 +48,7 @@ export default function Testimonials() {
     startAutoSlide();
   };
 
-  const nextSlide = () => {
-    stopAutoSlide();
-    setSlideDirection("right");
-    setCurrentIndex((prevIndex) =>
-      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
-    );
-    startAutoSlide();
-  };
+ 
 
   return (
     <section className="bg-white rounded-lg py-8 px-4 mx-2 my-8">

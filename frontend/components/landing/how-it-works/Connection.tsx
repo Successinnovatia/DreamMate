@@ -10,9 +10,7 @@ export default function Connection() {
           Make a Connection{" "}
         </h1>
         <p className="text-center text-[#4F4D55] w-5/6 md:w-2/3 mx-auto">
-          As a premium user, you'll gain access to special features like direct
-          invites to DreamMate’s luxury events and exclusive networking
-          opportunities.
+          {"As a premium user, you'll gain access to special features like direct invites to DreamMate’s luxury events and exclusive networking opportunities. "}
         </p>
       </div>
 

@@ -15,9 +15,7 @@ export default function WhyDreammate() {
       <div className="flex flex-col justify-center space-y-6 p-4 w-full md:w-1/2 lg:w-2/5">
         <h2 className="text-2xl font-semibold font-serif">Why DreamMate is Different</h2>
         <p className="font-medium tracking-wide">
-          Why DreamMate is Different We focus on relationships built on shared
-          visions for life. It’s not just about love—it’s about lifestyle,
-          success, and shared dreams."
+          {"Why DreamMate is Different We focus on relationships built on shared visions for life. It’s not just about love—it’s about lifestyle, success, and shared dreams."}
         </p>
       </div>
     </div>

@@ -50,7 +50,7 @@ export function Pricing({freemiumPlan, premiumPlan, currency, isAnnual}:PricingP
           </Button>
           {/*conditionally rendered features */}
           <div className="mt-4 hidden">
-            <h4 className="font-semibold">What's included</h4>
+            <h4 className="font-semibold">{"What's included"}</h4>
             <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
               {freemiumPlan.features.map((feature, i) => (
                 <li key={i}>{feature}</li>
@@ -97,7 +97,7 @@ export function Pricing({freemiumPlan, premiumPlan, currency, isAnnual}:PricingP
           </div>
 
           <div className="mt-4 lg:mt-0">
-            <h4 className="font-semibold">What's included</h4>
+            <h4 className="font-semibold">{"What's included"}</h4>
             <ul className="list-none text-gray-600 mt-2 space-y-1">
               {premiumPlan.features.map((feature, i) => (
                 <li

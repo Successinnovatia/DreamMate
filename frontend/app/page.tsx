@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Header from "@/components/landing/home/Header";
 import Hero from "@/components/landing/home/Hero";
 import Features from "@/components/landing/home/Features";

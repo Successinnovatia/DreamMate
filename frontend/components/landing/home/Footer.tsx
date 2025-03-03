@@ -11,7 +11,7 @@ export default function Footer() {
         <p className="text-sm font-serif text-[#F7F9FC] mb-4">CONVINCED?</p>
 
         <h3 className="font-serif text-3xl text-white mb-4 ">
-          Let's create magic together
+         {"Let's create magic together"}
         </h3>
 
         <p className="text-sm font-serif w-full md:w-3/5 lg:w-1/4 mx-auto text-[#F7F9FC]">
